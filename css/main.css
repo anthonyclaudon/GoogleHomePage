@@ -1,147 +1,175 @@
 :root {
-  --font: Arial, sans-serif;
-  --bg-color: rgb(32, 33, 36); }
-
-body {
-  padding: 0;
-  margin: 0;
-  background: var(--bg-color); }
-
-header {
-  display: flex;
-  justify-content: flex-end;
-  font-family: var(--font);
-  font-size: 14px;
-  padding: 25px; }
-  header .main-btn a {
-    margin-right: 10px;
-    text-decoration: none; }
-    header .main-btn a:hover {
-      text-decoration: underline; }
-    header .main-btn a:visited {
-      color: white; }
-  header .main-btn svg {
-    fill: white;
-    width: 24px;
-    vertical-align: middle; }
-    header .main-btn svg:hover {
-      background: grey;
-      border-radius: 25px;
-      cursor: pointer; }
-  header .main-btn button {
-    height: 36px;
-    width: 117px;
-    background: cornflowerblue;
-    border: 0;
-    border-radius: 4px;
-    margin-left: 10px; }
-    header .main-btn button:hover {
-      cursor: pointer;
-      background: #a0b1d9; }
-
-main .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 210px; }
-
-main .input {
-  display: flex;
-  justify-content: center;
-  width: 584px;
-  border-radius: 24px;
-  margin: 20px auto 0;
-  border: 1px solid grey;
-  height: 40px; }
-  main .input:hover {
-    background-color: #303134;
-    border-color: rgba(223, 225, 229, 0); }
-  main .input input {
-    border-left: 0;
-    border-right: 0;
-    height: 91%;
-    border-bottom: 0;
-    width: 500px;
-    background-color: var(--bg-color); }
-    main .input input:focus, main .input input:active {
-      border: 0;
-      outline: 0; }
-    main .input input:hover {
-      background-color: #303134;
-      border-color: rgba(223, 225, 229, 0); }
-  main .input svg {
-    fill: grey;
-    width: 20px;
-    left: 0; }
-
-main .buttons {
-  display: flex;
-  justify-content: center;
-  margin-top: 18px;
-  padding-bottom: 20px; }
-  main .buttons button {
-    height: 36px;
-    margin-right: 12px;
-    background-color: var(--bg-color);
-    border: 1px solid grey;
-    border-radius: 4px; }
-    main .buttons button:hover {
-      cursor: pointer;
-      background-color: #535459; }
-
-main p {
-  display: flex;
-  justify-content: center;
-  font-family: var(--font);
-  font-size: 12px;
-  color: white; }
-  main p a {
-    margin-left: 5px;
-    text-decoration: none; }
-    main p a:visited {
-      color: cornflowerblue; }
-    main p a:hover {
-      text-decoration: underline; }
-
-footer {
-  border-top: 1px solid grey;
-  position: absolute;
-  bottom: 0;
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  background-color: #171717;
-  font-family: var(--font);
-  font-size: 14px;
-  height: 50px;
-  align-items: center; }
-  footer .left {
-    order: 0; }
-    footer .left a {
-      text-decoration: none;
-      margin-right: 10px;
-      padding-left: 20px; }
-      footer .left a:visited {
-        color: white; }
-      footer .left a:hover {
-        text-decoration: underline; }
-  footer .middle {
-    order: 1; }
-    footer .middle a {
-      text-decoration: none; }
-      footer .middle a:visited {
-        color: white; }
-      footer .middle a:hover {
-        text-decoration: underline; }
-  footer .right {
-    order: 2; }
-    footer .right a {
-      text-decoration: none;
-      margin-left: 10px;
-      padding-right: 20px; }
-      footer .right a:visited {
-        color: white; }
-      footer .right a:hover {
-        text-decoration: underline; }
-
-/*# sourceMappingURL=main.css.map */
+     --font: Arial, sans-serif;
+     --bg-color: rgb(32, 33, 36);
+}
+ body {
+     padding: 0;
+     margin: 0;
+     background: var(--bg-color);
+}
+ header {
+     display: flex;
+     justify-content: flex-end;
+     font-family: var(--font);
+     font-size: 14px;
+     padding: 25px;
+}
+ header .main-btn a {
+     margin-right: 10px;
+     text-decoration: none;
+}
+ header .main-btn a:hover {
+     text-decoration: underline;
+}
+ header .main-btn a:visited {
+     color: white;
+}
+ header .main-btn svg {
+     fill: white;
+     width: 24px;
+     vertical-align: middle;
+}
+ header .main-btn svg:hover {
+     background: grey;
+     border-radius: 25px;
+     cursor: pointer;
+}
+ header .main-btn button {
+     height: 36px;
+     width: 117px;
+     background: cornflowerblue;
+     border: 0;
+     border-radius: 4px;
+     margin-left: 10px;
+}
+ header .main-btn button:hover {
+     cursor: pointer;
+     background: #a0b1d9;
+}
+ main .container {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding-top: 210px;
+}
+ main .input {
+     display: flex;
+     justify-content: center;
+     width: 584px;
+     border-radius: 24px;
+     margin: 20px auto 0;
+     border: 1px solid grey;
+     height: 40px;
+}
+ main .input:hover {
+     background-color: #303134;
+     border-color: rgba(223, 225, 229, 0);
+}
+ main .input input {
+     border-left: 0;
+     border-right: 0;
+     height: 91%;
+     border-bottom: 0;
+     width: 500px;
+     background-color: var(--bg-color);
+}
+ main .input input:focus, main .input input:active {
+     border: 0;
+     outline: 0;
+}
+ main .input input:hover {
+     background-color: #303134;
+     border-color: rgba(223, 225, 229, 0);
+}
+ main .input svg {
+     fill: grey;
+     width: 20px;
+     left: 0;
+}
+ main .buttons {
+     display: flex;
+     justify-content: center;
+     margin-top: 18px;
+     padding-bottom: 20px;
+}
+ main .buttons button {
+     height: 36px;
+     margin-right: 12px;
+     background-color: var(--bg-color);
+     border: 1px solid grey;
+     border-radius: 4px;
+}
+ main .buttons button:hover {
+     cursor: pointer;
+     background-color: #535459;
+}
+ main p {
+     display: flex;
+     justify-content: center;
+     font-family: var(--font);
+     font-size: 12px;
+     color: white;
+}
+ main p a {
+     margin-left: 5px;
+     text-decoration: none;
+}
+ main p a:visited {
+     color: cornflowerblue;
+}
+ main p a:hover {
+     text-decoration: underline;
+}
+ footer {
+     border-top: 1px solid grey;
+     position: absolute;
+     bottom: 0;
+     display: flex;
+     justify-content: space-between;
+     width: 100%;
+     background-color: #171717;
+     font-family: var(--font);
+     font-size: 14px;
+     height: 50px;
+     align-items: center;
+}
+ footer .left {
+     order: 0;
+}
+ footer .left a {
+     text-decoration: none;
+     margin-right: 10px;
+     padding-left: 20px;
+}
+ footer .left a:visited {
+     color: white;
+}
+ footer .left a:hover {
+     text-decoration: underline;
+}
+ footer .middle {
+     order: 1;
+}
+ footer .middle a {
+     text-decoration: none;
+}
+ footer .middle a:visited {
+     color: white;
+}
+ footer .middle a:hover {
+     text-decoration: underline;
+}
+ footer .right {
+     order: 2;
+}
+ footer .right a {
+     text-decoration: none;
+     margin-left: 10px;
+     padding-right: 20px;
+}
+ footer .right a:visited {
+     color: white;
+}
+ footer .right a:hover {
+     text-decoration: underline;
+}
